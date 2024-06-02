@@ -1,0 +1,20 @@
+.collecard {
+    background-color: #4787F5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.collecard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.collecard h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #fff;
+}
+

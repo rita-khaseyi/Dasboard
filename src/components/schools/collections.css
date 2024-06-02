@@ -1,0 +1,88 @@
+.collections {
+    margin-left: 300px;
+    /* margin: 20px; */
+    font-family: Arial, sans-serif;
+}
+
+.collections h3,
+.collections h4 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.collection-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.collection-table th,
+.collection-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.collection-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.collection-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.collection-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.collection-table td button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.collection-table td button:first-of-type {
+    background-color: #042547; /* Green for valid */
+}
+
+.collection-table td button:last-of-type {
+    background-color: #042547; /* Red for bounced */
+}
+
+.collection-table td button:hover {
+    opacity: 0.8;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+form input,
+form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: calc(33.333% - 10px);
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #042547;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #042547;
+}

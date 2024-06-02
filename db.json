@@ -1,0 +1,404 @@
+{
+  "collections": [
+    {
+      "id": "1",
+      "invoiceId": "1",
+      "collectionNumber": "1001",
+      "date": "2024-05-15",
+      "amount": 100,
+      "status": "Bounced"
+    },
+    {
+      "id": "2",
+      "invoiceId": "2",
+      "collectionNumber": "1002",
+      "date": "2024-05-20",
+      "amount": 150,
+      "status": "Valid"
+    },
+    {
+      "id": "3",
+      "invoiceId": "3",
+      "collectionNumber": "1003",
+      "date": "2024-05-25",
+      "amount": 80,
+      "status": "Bounced"
+    },
+    {
+      "id": "4",
+      "invoiceId": "4",
+      "collectionNumber": "1004",
+      "date": "2024-06-01",
+      "amount": 500,
+      "status": "Bounced"
+    }
+  ],
+  "signups": [
+    {
+      "id": "1",
+      "count": 10,
+      "product": "Zeraki Analytics"
+    },
+    {
+      "id": "2",
+      "count": 15,
+      "product": "Zeraki Finance"
+    },
+    {
+      "id": "3",
+      "count": 8,
+      "product": "Zeraki Timetable"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "1",
+      "schoolId": "1",
+      "invoiceItem": "Zeraki Analytics Subscription",
+      "creationDate": "2024-05-01",
+      "dueDate": "2024-06-01",
+      "amount": 200,
+      "paidAmount": 50,
+      "balance": 150,
+      "status": "Pending",
+      "daysUntilDue": 15
+    },
+    {
+      "id": "2",
+      "schoolId": "2",
+      "invoiceItem": "Zeraki Finance Subscription",
+      "creationDate": "2024-05-10",
+      "dueDate": "2024-06-10",
+      "amount": 300,
+      "paidAmount": 100,
+      "balance": 200,
+      "status": "Pending",
+      "daysUntilDue": 20
+    },
+    {
+      "id": "3",
+      "schoolId": "3",
+      "invoiceItem": "Books",
+      "creationDate": "2024-05-15",
+      "dueDate": "2024-06-15",
+      "amount": 50000,
+      "paidAmount": 10000,
+      "balance": 40000,
+      "status": "Pending",
+      "daysUntilDue": 25
+    },
+    {
+      "id": "4",
+      "schoolId": "4",
+      "invoiceItem": "Laboratory Equipment",
+      "creationDate": "2024-05-20",
+      "dueDate": "2024-06-20",
+      "amount": 1000,
+      "paidAmount": 500,
+      "balance": 500,
+      "status": "Pending",
+      "daysUntilDue": 30
+    },
+    {
+      "id": "5",
+      "schoolId": "5",
+      "invoiceItem": "Sports Gear",
+      "creationDate": "2024-05-25",
+      "dueDate": "2024-06-25",
+      "amount": 800,
+      "paidAmount": 300,
+      "balance": 500,
+      "status": "Pending",
+      "daysUntilDue": 35
+    },
+    {
+      "id": "3383",
+      "schoolName": "",
+      "invoiceItem": "book",
+      "creationDate": "2024-06-02",
+      "dueDate": "2024-06-28",
+      "amount": "800",
+      "paidAmount": "100",
+      "balance": "500",
+      "status": "Pending"
+    }
+  ],
+  "targets": [
+    {
+      "id": "1",
+      "product": "Zeraki Analytics",
+      "target": 100,
+      "actual": 99
+    },
+    {
+      "id": "2",
+      "product": "Zeraki Finance",
+      "target": 150,
+      "actual": 120
+    },
+    {
+      "id": "3",
+      "product": "Zeraki Timetable",
+      "target": 80,
+      "actual": 60
+    }
+  ],
+  "bouncedCheques": [
+    {
+      "id": "1",
+      "amount": 50,
+      "status": "Bounced"
+    },
+    {
+      "id": "2",
+      "amount": 75,
+      "status": "Bounced"
+    },
+    {
+      "id": "3",
+      "amount": 50,
+      "status": "Bounced"
+    },
+    {
+      "id": "4",
+      "amount": 75,
+      "status": "Bounced"
+    },
+    {
+      "id": "5",
+      "amount": 50,
+      "status": "Bounced"
+    },
+    {
+      "id": "6",
+      "amount": 75,
+      "status": "Bounced"
+    },
+    {
+      "id": "7",
+      "amount": 50,
+      "status": "Bounced"
+    },
+    {
+      "id": "8",
+      "amount": 75,
+      "status": "Bounced"
+    }
+  ],
+  "revenue": [
+    {
+      "id": "1",
+      "amount": 1000
+    },
+    {
+      "id": "2",
+      "amount": 1500
+    },
+    {
+      "id": "3",
+      "amount": 800
+    }
+  ],
+  "schools": [
+    {
+      "id": "1",
+      "name": "Utawala primary",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2023-01-15",
+      "contact": "utawala@school.com",
+      "balance": 1500
+    },
+    {
+      "id": "2",
+      "name": "Karen international",
+      "type": "Secondary",
+      "product": "Zeraki Finance",
+      "county": "Mombasa",
+      "registrationDate": "2023-02-20",
+      "contact": "karen@school.com",
+      "balance": 3000
+    },
+    {
+      "id": "3",
+      "name": "Greenfield Academy",
+      "type": "IGCSE",
+      "product": "Zeraki Timetable",
+      "county": "Kisumu",
+      "registrationDate": "2023-03-10",
+      "contact": "greenfield@school.com",
+      "balance": 2500
+    },
+    {
+      "id": "4",
+      "name": "Mountain View School",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "county": "Nakuru",
+      "registrationDate": "2023-04-05",
+      "contact": "mountainview@school.com",
+      "balance": 1800
+    },
+    {
+      "id": "5",
+      "name": "Silver Springs Academy",
+      "type": "Secondary",
+      "product": "Zeraki Finance",
+      "county": "Nyeri",
+      "registrationDate": "2023-05-12",
+      "contact": "silversprings@school.com",
+      "balance": 3200
+    },
+    {
+      "id": "6",
+      "name": "Lakewood International",
+      "type": "IGCSE",
+      "product": "Zeraki Timetable",
+      "county": "Nakuru",
+      "registrationDate": "2023-06-08",
+      "contact": "lakewood@school.com",
+      "balance": 2700
+    },
+    {
+      "id": "7",
+      "name": "Prestige Academy",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "county": "Kiambu",
+      "registrationDate": "2023-07-14",
+      "contact": "prestige@school.com",
+      "balance": 2900
+    },
+    {
+      "id": "8",
+      "name": "Hillcrest School",
+      "type": "Secondary",
+      "product": "Zeraki Finance",
+      "county": "Machakos",
+      "registrationDate": "2023-08-22",
+      "contact": "hillcrest@school.com",
+      "balance": 3500
+    },
+    {
+      "id": "9",
+      "name": "Riverside Academy",
+      "type": "IGCSE",
+      "product": "Zeraki Timetable",
+      "county": "Mombasa",
+      "registrationDate": "2023-09-16",
+      "contact": "riverside@school.com",
+      "balance": 3100
+    },
+    {
+      "id": "10",
+      "name": "Sunshine Primary School",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2023-10-18",
+      "contact": "sunshine@school.com",
+      "balance": 2300
+    },
+    {
+      "id": "11",
+      "name": "Bright Future Secondary",
+      "type": "Secondary",
+      "product": "Zeraki Finance",
+      "county": "Nakuru",
+      "registrationDate": "2023-11-22",
+      "contact": "brightfuture@school.com",
+      "balance": 2800
+    },
+    {
+      "id": "12",
+      "name": "Oceanview Academy",
+      "type": "IGCSE",
+      "product": "Zeraki Timetable",
+      "county": "Kilifi",
+      "registrationDate": "2023-12-29",
+      "contact": "oceanview@school.com",
+      "balance": 2500
+    },
+    {
+      "id": "13",
+      "name": "Maple Leaf School",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "county": "Nairobi",
+      "registrationDate": "2024-01-05",
+      "contact": "mapleleaf@school.com",
+      "balance": 2800
+    },
+    {
+      "id": "14",
+      "name": "Redwood High",
+      "type": "Secondary",
+      "product": "Zeraki Finance",
+      "county": "Kericho",
+      "registrationDate": "2024-02-12",
+      "contact": "redwood@school.com",
+      "balance": 3300
+    },
+    {
+      "id": "15",
+      "name": "Pine Valley Academy",
+      "type": "IGCSE",
+      "product": "Zeraki Timetable",
+      "county": "Kisumu",
+      "registrationDate": "2024-03-18",
+      "contact": "pinevalley@school.com",
+      "balance": 2900
+    },
+    {
+      "id": "16",
+      "name": "Golden Oak School",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "county": "Nakuru",
+      "registrationDate": "2024-04-06",
+      "contact": "goldenoak@school.com",
+      "balance": 2800
+    },
+    {
+      "id": "17",
+      "name": "Silver Valley High",
+      "type": "Secondary",
+      "product": "Zeraki Finance",
+      "county": "Machakos",
+      "registrationDate": "2024-05-04",
+      "contact": "silvervalley@school.com",
+      "balance": 3000
+    },
+    {
+      "id": "18",
+      "name": "Evergreen Academy",
+      "type": "IGCSE",
+      "product": "Zeraki Timetable",
+      "county": "Nairobi",
+      "registrationDate": "2024-06-10",
+      "contact": "evergreen@school.com",
+      "balance": 2600
+    },
+    {
+      "id": "19",
+      "name": "Harmony Primary School",
+      "type": "Primary",
+      "product": "Zeraki Analytics",
+      "county": "Kisumu",
+      "registrationDate": "2024-07-12",
+      "contact": "harmony@school.com",
+      "balance": 2400
+    },
+    {
+      "id": "20",
+      "name": "Star High School",
+      "type": "Secondary",
+      "product": "Zeraki Finance",
+      "county": "Mombasa",
+      "registrationDate": "2024-08-15",
+      "contact": "starhigh@school.com",
+      "balance": 3100
+    }
+  ]
+}

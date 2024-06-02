@@ -1,0 +1,19 @@
+.signups-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    margin-top: 20px;
+}
+
+.signups-card:hover {
+    transform: translateY(-5px);
+}
+
+.signups-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+

@@ -1,0 +1,71 @@
+/* SchoolDetails.css */
+.school-details {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  
+  margin-left: 250px;
+}
+
+.school-details h3 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.school-details p {
+  color: #555;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.school-details strong {
+  color: #000;
+}
+
+.invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.invoice-table th,
+.invoice-table td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: left;
+}
+
+.invoice-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.invoice-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.invoice-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.navigation-links {
+  margin-top: 10px;
+}
+
+.navigation-links a {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 10px 15px;
+  background-color: #201F5F;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.navigation-links a:hover {
+  background-color: #0056b3;
+}

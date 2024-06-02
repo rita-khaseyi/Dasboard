@@ -1,0 +1,52 @@
+.upcoming-invoices {
+    background: #ffffff;
+   
+    text-align: left;
+    width: 280px;
+
+}
+
+.upcoming-invoices:hover {
+    transform: translateY(-5px);
+}
+
+.upcoming-invoices h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.upcoming-invoices ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.invoice-item {
+    border-bottom: 1px solid #eee;
+   
+}
+
+.invoice-item:last-child {
+    border-bottom: none;
+}
+
+.invoice-details {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.collect-button {
+    background-color: #201F5F;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.collect-button:hover {
+    background-color: #201F5F;
+}
