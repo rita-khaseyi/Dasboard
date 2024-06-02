@@ -1,6 +1,6 @@
 # Zeraki Sales Agent Dashboard
 
-![Zeraki Logo](assets/images/zeraki-logo.png)
+![Zeraki Logo](file:///home/user/Screenshots/Screenshot%20from%202024-06-02%2017-26-20.png)
 
 Welcome to the **Zeraki Sales Agent Dashboard**! This application allows you to manage sales, track performance, and revolutionize education across Africa.
 
